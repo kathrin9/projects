@@ -1,0 +1,5 @@
+The dataset housing.csv, provided by Tech Pro Academy, was thoroughly cleaned, preprocessed, and analyzed to develop a predictive model for house prices. Initially, exploratory data analysis was conducted to identify and remove irrelevant features that did not contribute significantly to the target variable. Columns containing more than 40% missing values were excluded from the dataset, while remaining missing values were appropriately imputed. Duplicate entries and outliers were also identified and addressed to enhance data quality.
+
+Following the preprocessing phase, correlation analysis was performed to understand the relationships between variables. A Multiple Linear Regression model was then implemented to predict house prices. The model achieved an R² score of approximately 88% on the training set and 86% on the testing set, indicating strong predictive performance.
+
+While a minor drop in performance on the test data suggests potential overfitting, the model demonstrates solid generalization capabilities and remains effective when applied to unseen data.
